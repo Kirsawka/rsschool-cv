@@ -1,0 +1,43 @@
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.header {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.content__photo {
+    float: right;
+    margin: 0;
+}
+
+.content__subtitle {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.content__text {
+    padding-left: 15px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.content__list {
+    list-style-type: none;
+}
+
+.content__list-item {
+    padding: 5px;
+}
+
+.content__link {
+    text-decoration: none;
+    color: blue;
+}
