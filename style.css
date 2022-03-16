@@ -18,7 +18,8 @@ body {
     margin: 0;
 }
 
-.content__subtitle {
+.content__subtitle,
+.footer__title {
     font-size: 24px;
     text-decoration: underline;
 }
@@ -29,15 +30,40 @@ body {
     font-size: 18px;
 }
 
-.content__list {
+.content__list,
+.footer__list {
     list-style-type: none;
 }
 
-.content__list-item {
+.content__list-item,
+.footer__list-item {
     padding: 5px;
 }
 
 .content__link {
     text-decoration: none;
     color: blue;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: black;
+}
+
+.footer__link:hover {
+    color: blue;
+}
+
+.footer__icons-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__icons-list-item {
+    padding: 20px;
+}
+
+.footer__text {
+    text-align: center;
 }
