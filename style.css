@@ -1,0 +1,69 @@
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.header {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.content__photo {
+    float: right;
+    margin: 0;
+}
+
+.content__subtitle,
+.footer__title {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.content__text {
+    padding-left: 15px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.content__list,
+.footer__list {
+    list-style-type: none;
+}
+
+.content__list-item,
+.footer__list-item {
+    padding: 5px;
+}
+
+.content__link {
+    text-decoration: none;
+    color: blue;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: black;
+}
+
+.footer__link:hover {
+    color: blue;
+}
+
+.footer__icons-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__icons-list-item {
+    padding: 20px;
+}
+
+.footer__text {
+    text-align: center;
+}
