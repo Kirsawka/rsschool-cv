@@ -1,1 +1,1 @@
-# rsschool-cv
+https://kirsawka.github.io/rsschool-cv/cv
